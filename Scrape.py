@@ -4,7 +4,7 @@ import time
 import csv
 
 browser=webdriver.Chrome()
-url='https://www.sulekha.com/playschools/hyderabad'
+url='https://www.sulekha.com/plant-nurseries/delhi'
 browser.get(url)
 see_more=1
 while see_more:
@@ -19,7 +19,7 @@ soup=BeautifulSoup(source,features="xml")
 lists=soup.find_all('li',{'class':'list-item view-r'})
 
 fields = ['Name', 'Phone', 'Address']
-out_file = open('sulekha.csv','w')
+out_file = open('data.csv','w')
 csvwriter = csv.DictWriter(out_file, delimiter=',', fieldnames=fields)
 details={}
 ctr=0
