@@ -1,12 +1,12 @@
 # Delhi-Nurseries-Data-Scrapping-and-Analysis-from-Sulekha.com
 
-Softwares used -
+## Softwares used -
 
-1. Python
-2. Microsoft Excel
-3. Microsoft Word
+[![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
+![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Microsoft](https://img.shields.io/badge/Microsoft-0078D4?style=for-the-badge&logo=microsoft&logoColor=white)
 
-Required Python Libraries -
+## Required Python Libraries -
 
 1. selenium
 2. BeautifulSoup
